@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KhetHub – Smart Farming Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ 
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <div class="logo">
+        <div class="logo-icon">🌾</div>
+        <span class="logo-text">KhetHub</span>
+      </div>
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn-signin">Sign In</button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+ 
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="field-rows">
+        <div class="field-row" style="--delay:0s"></div>
+        <div class="field-row" style="--delay:0.3s"></div>
+        <div class="field-row" style="--delay:0.6s"></div>
+        <div class="field-row" style="--delay:0.9s"></div>
+        <div class="field-row" style="--delay:1.2s"></div>
+      </div>
+      <div class="sun"></div>
+      <div class="cloud cloud-1"></div>
+      <div class="cloud cloud-2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">🌱 Powering India's Agriculture</div>
+      <h1 class="hero-title reveal">
+        Khet se <span class="accent">Kitchen</span> tak,<br/>Technology ke saath.
+      </h1>
+      <p class="hero-subtitle reveal">
+        KhetHub connects farmers with real-time crop advice, market prices, weather forecasts,
+        and expert support — all in one place.
+      </p>
+      <div class="hero-btns reveal">
+        <a href="#services" class="btn-primary">Explore Services</a>
+        <a href="#about" class="btn-outline">Learn More</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat">
+          <span class="stat-num" data-target="50000">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Farmers</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="300">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Villages</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="15">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">States</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+ 
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal-left">
+          <div class="about-card-stack">
+            <div class="acard acard-1"><span>🌦️</span> Live Weather</div>
+            <div class="acard acard-2"><span>📊</span> Market Rates</div>
+            <div class="acard acard-3"><span>🤖</span> AI Crop Advisor</div>
+            <div class="about-center-img">
+              <div class="circle-bg"></div>
+              <div class="big-emoji">🧑‍🌾</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-text reveal-right">
+          <span class="section-eyebrow">Who We Are</span>
+          <h2 class="section-title">Kheti ko banate hain <span class="accent">smarter</span></h2>
+          <p class="section-body">KhetHub is India's growing agri-tech platform built for the modern farmer. We bridge the gap between traditional farming wisdom and cutting-edge technology.</p>
+          <p class="section-body">From soil health monitoring to connecting directly with buyers, KhetHub is your all-season partner in the field.</p>
+          <div class="about-pillars">
+            <div class="pillar"><div class="pillar-dot"></div><span>Built for Bharat's farmers</span></div>
+            <div class="pillar"><div class="pillar-dot"></div><span>Multilingual support</span></div>
+            <div class="pillar"><div class="pillar-dot"></div><span>Works offline too</span></div>
+          </div>
+          <a href="#services" class="btn-primary">See Our Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- SERVICES -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">What We Offer</span>
+        <h2 class="section-title">Services <span class="accent">designed</span> for the field</h2>
+        <p class="section-subtitle">Everything a farmer needs — weather to wallet.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal" style="--cd:0.1s"><div class="sc-icon">🌤️</div><h3>Weather Intelligence</h3><p>Hyperlocal 7-day forecasts tailored to your pincode. Know before you sow.</p><a href="#" class="sc-link">Explore →</a></div>
+        <div class="service-card reveal" style="--cd:0.2s"><div class="sc-icon">📈</div><h3>Mandi Price Tracker</h3><p>Real-time prices from mandis across your state. Sell at the best rate, every time.</p><a href="#" class="sc-link">Explore →</a></div>
+        <div class="service-card reveal" style="--cd:0.3s"><div class="sc-icon">🌿</div><h3>Crop Health Scanner</h3><p>Upload a photo of your crop. Our AI detects disease and suggests treatment instantly.</p><a href="#" class="sc-link">Explore →</a></div>
+        <div class="service-card reveal" style="--cd:0.4s"><div class="sc-icon">🧑‍🌾</div><h3>Expert Kisan Advisory</h3><p>Connect with certified agronomists via call or chat. Free for registered farmers.</p><a href="#" class="sc-link">Explore →</a></div>
+        <div class="service-card reveal" style="--cd:0.5s"><div class="sc-icon">🏦</div><h3>Agri Finance Help</h3><p>Navigate government schemes, Kisan Credit Cards, and crop insurance with ease.</p><a href="#" class="sc-link">Explore →</a></div>
+        <div class="service-card reveal" style="--cd:0.6s"><div class="sc-icon">🛒</div><h3>Direct Market Connect</h3><p>Sell directly to buyers and retailers. No middleman. Better margins for you.</p><a href="#" class="sc-link">Explore →</a></div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- FEATURES -->
+  <section class="features section" id="features">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Platform Features</span>
+        <h2 class="section-title">Why farmers choose <span class="accent">KhetHub</span></h2>
+      </div>
+      <div class="features-list">
+        <div class="feature-item reveal"><div class="fi-num">01</div><div class="fi-content"><h3>AI-Powered Crop Diagnosis</h3><p>Snap a photo, get a diagnosis. Our ML model identifies 200+ diseases across 40 crop types.</p></div><div class="fi-emoji">🔬</div></div>
+        <div class="feature-item reveal"><div class="fi-num">02</div><div class="fi-content"><h3>Voice Assistant in Hindi</h3><p>Just speak. Our voice assistant understands Hindi, Punjabi, Bhojpuri and 8 more regional languages.</p></div><div class="fi-emoji">🎙️</div></div>
+        <div class="feature-item reveal"><div class="fi-num">03</div><div class="fi-content"><h3>Soil & Irrigation Planner</h3><p>Input your soil type and crop — get a customized irrigation schedule, fertilizer chart, and harvest timeline.</p></div><div class="fi-emoji">💧</div></div>
+        <div class="feature-item reveal"><div class="fi-num">04</div><div class="fi-content"><h3>Government Scheme Finder</h3><p>Search 100+ central and state schemes. Apply directly from the app in minutes.</p></div><div class="fi-emoji">📋</div></div>
+        <div class="feature-item reveal"><div class="fi-num">05</div><div class="fi-content"><h3>Community Forum</h3><p>Join 50,000+ farmers sharing tips, success stories, and local farming knowledge.</p></div><div class="fi-emoji">🤝</div></div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- TESTIMONIALS -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Kisan Ki Baat</span>
+        <h2 class="section-title">Jo farmers kehte hain <span class="accent">KhetHub</span> ke baare mein</h2>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card reveal" style="--cd:0.1s">
+          <div class="testi-quote">"</div>
+          <p>Pehle meri fasal ka sahi bhav nahi milta tha. KhetHub ke mandi tracker se ab seedha sahi mandi dhundhta hoon. Is saal 30% zyada kamai hui.</p>
+          <div class="testi-author"><div class="testi-avatar" style="background:#4A7C3F">RS</div><div><strong>Ranjit Singh</strong><span>Wheat Farmer, Punjab</span></div></div>
+        </div>
+        <div class="testi-card reveal" style="--cd:0.2s">
+          <div class="testi-quote">"</div>
+          <p>AI crop scanner ne mere tamatar ki blight disease 2 din pehle pakad li. Nahi hota toh poori kheti kharab ho jaati. KhetHub ne meri mehnat bachali.</p>
+          <div class="testi-author"><div class="testi-avatar" style="background:#C1683A">SL</div><div><strong>Sunita Laxmi</strong><span>Vegetable Farmer, Maharashtra</span></div></div>
+        </div>
+        <div class="testi-card reveal" style="--cd:0.3s">
+          <div class="testi-quote">"</div>
+          <p>Government schemes ki jankari pehle bahut mushkil thi. KhetHub ka scheme finder use karke mujhe PM-KISAN aur soil health card dono ke liye apply kiya.</p>
+          <div class="testi-author"><div class="testi-avatar" style="background:#D4A843">MK</div><div><strong>Manoj Kumar</strong><span>Rice Farmer, Bihar</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <span class="section-eyebrow">Get In Touch</span>
+          <h2 class="section-title">Hamare saath <span class="accent">baat karein</span></h2>
+          <p class="section-body">Koi sawaal ho, suggestion ho, ya partnership ke liye sampark karein. Hum sunne ke liye hamesha taiyaar hain.</p>
+          <div class="contact-details">
+            <div class="contact-item"><span class="ci-icon">📧</span><span>hello@khethub.in</span></div>
+            <div class="contact-item"><span class="ci-icon">📞</span><span>+91 98765 43210</span></div>
+            <div class="contact-item"><span class="ci-icon">📍</span><span>New Delhi, India</span></div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-btn">🐦 Twitter</a>
+            <a href="#" class="social-btn">💼 LinkedIn</a>
+            <a href="#" class="social-btn">📘 Facebook</a>
+          </div>
+        </div>
+        <div class="contact-form-wrap reveal-right">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group"><label for="name">Your Name</label><input type="text" id="name" placeholder="Ramesh Kumar" required /></div>
+              <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" placeholder="you@example.com" required /></div>
+            </div>
+            <div class="form-group"><label for="subject">Subject</label><input type="text" id="subject" placeholder="How can we help?" /></div>
+            <div class="form-group"><label for="message">Message</label><textarea id="message" rows="5" placeholder="Apna sawaal ya suggestion yahan likhein..."></textarea></div>
+            <button type="submit" class="btn-primary btn-full">Send Message 🌾</button>
+            <div class="form-success" id="formSuccess">✅ Message bhej diya! Hum jald hi sampark karenge.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- FOOTER -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo"><div class="logo-icon">🌾</div><span class="logo-text">KhetHub</span></div>
+          <p>Empowering India's 140 million farming families with technology, knowledge, and community.</p>
+          <p class="footer-tagline">Jai Jawan. Jai Kisan. Jai Vigyan.</p>
+        </div>
+        <div class="footer-links"><h4>Platform</h4><a href="#home">Home</a><a href="#about">About Us</a><a href="#services">Services</a><a href="#features">Features</a></div>
+        <div class="footer-links"><h4>Support</h4><a href="#">Kisan Helpline</a><a href="#">FAQs</a><a href="#">Blog</a><a href="#">Downloads</a></div>
+        <div class="footer-links"><h4>Legal</h4><a href="#">Privacy Policy</a><a href="#">Terms of Use</a><a href="#">Cookie Policy</a></div>
+        <div class="footer-app">
+          <h4>Get the App</h4>
+          <a href="#" class="app-btn"><span>📱</span><div><small>Download on</small><strong>App Store</strong></div></a>
+          <a href="#" class="app-btn"><span>🤖</span><div><small>Get it on</small><strong>Google Play</strong></div></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 KhetHub. All rights reserved. Made with ❤️ for India's farmers.</p>
+        <p>Founded by <strong>Ankit Singh</strong></p>
+      </div>
+    </div>
+  </footer>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
+ 
